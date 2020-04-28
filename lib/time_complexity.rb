@@ -21,8 +21,10 @@ def find_book_enhanced(books, book_to_find)
   # - Is your book before or after the pivot book? Follow up to step 3!
   # 3. Select the section of the array where your book is.
   # 4. Do the whole process all over again.
-  first = 0
-  last = books.length - 1
+  # first = 0
+  # last = books.length - 1
+  first = 1
+  last = books.length
   while first <= last
     i = (first + last) / 2
     if books[i] == book_to_find
