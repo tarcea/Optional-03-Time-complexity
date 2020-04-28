@@ -23,8 +23,8 @@ def find_book_enhanced(books, book_to_find)
   # 4. Do the whole process all over again.
   # first = 0
   # last = books.length - 1
-  first = 1
-  last = books.length
+  first = 0
+  last = books.length - 1
   while first <= last
     i = (first + last) / 2
     if books[i] == book_to_find
